@@ -8,3 +8,4 @@ SELECT
         SUM(flTwitch) AS totalTwitch,
         SUM(flTwitter) AS totalTwitter
 FROM tb_players
+GROUP BY descCountry
